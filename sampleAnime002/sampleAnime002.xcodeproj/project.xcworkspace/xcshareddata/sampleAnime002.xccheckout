@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EEF7D1C9-2074-44AB-932F-30D61A317AF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sampleAnime002</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C87F58C7BBD316408B923495D1A0FEA674C261FA</key>
+		<string>https://github.com/ei17ringo/sampleAnime002</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sampleAnime002.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C87F58C7BBD316408B923495D1A0FEA674C261FA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ei17ringo/sampleAnime002</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C87F58C7BBD316408B923495D1A0FEA674C261FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C87F58C7BBD316408B923495D1A0FEA674C261FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sampleAnime002</string>
+		</dict>
+	</array>
+</dict>
+</plist>

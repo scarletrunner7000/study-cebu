@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5A07BD6-6D6C-48D1-92D2-44EE67A727AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SampleiTunesAPI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>78D40FA426A7694D8D3D95E1BD7DFADF0B7827EA</key>
+		<string>https://github.com/ei17ringo/SampleiTunesAPI</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SampleiTunesAPI.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>78D40FA426A7694D8D3D95E1BD7DFADF0B7827EA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ei17ringo/SampleiTunesAPI</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>78D40FA426A7694D8D3D95E1BD7DFADF0B7827EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>78D40FA426A7694D8D3D95E1BD7DFADF0B7827EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SampleiTunesAPI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

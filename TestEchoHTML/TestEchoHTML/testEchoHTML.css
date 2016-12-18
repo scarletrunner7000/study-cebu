@@ -1,0 +1,36 @@
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.cells th ,
+.cells td {
+  margin: 0;
+  padding: 0;
+}
+
+.cells div {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+div.white {
+  background-color: white;
+}
+
+div.black {
+  background-color: black;
+}
+
+div.x-5 {
+  border-right: 2px solid #CCCCCC;
+}
+
+div.y-5 {
+  border-bottom: 2px solid #CCCCCC;
+}

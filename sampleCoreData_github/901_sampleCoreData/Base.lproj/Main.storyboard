@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4I9-b7-3hx">
+                                <rect key="frame" x="4" y="30" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="368" id="iH0-hy-fCy"/>
+                                    <constraint firstAttribute="height" constant="30" id="oyd-5L-W3h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iH0-hy-fCy"/>
+                                        <exclude reference="oyd-5L-W3h"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="iH0-hy-fCy"/>
+                                        <include reference="oyd-5L-W3h"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQd-wV-Mnd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AJx-2j-XTk"/>
+                                    <constraint firstAttribute="width" constant="129" id="E1y-eL-o2h"/>
+                                </constraints>
+                                <state key="normal" title="保存する">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AJx-2j-XTk"/>
+                                        <exclude reference="E1y-eL-o2h"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AJx-2j-XTk"/>
+                                        <include reference="E1y-eL-o2h"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="saveData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JiY-Yn-G5n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4l-AF-M1x">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mde-nL-N9S"/>
+                                    <constraint firstAttribute="width" constant="129" id="tTa-Wx-pNT"/>
+                                </constraints>
+                                <state key="normal" title="取得してログ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mde-nL-N9S"/>
+                                        <exclude reference="tTa-Wx-pNT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="mde-nL-N9S"/>
+                                        <include reference="tTa-Wx-pNT"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="selectData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LkT-iK-MUL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcH-4r-SvB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SCn-gm-o44"/>
+                                    <constraint firstAttribute="width" constant="191" id="y1w-HE-Pki"/>
+                                </constraints>
+                                <state key="normal" title="データを編集する">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SCn-gm-o44"/>
+                                        <exclude reference="y1w-HE-Pki"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="SCn-gm-o44"/>
+                                        <include reference="y1w-HE-Pki"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="updateData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6rK-tO-n5K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VK-ED-BGC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="QWp-rC-fQ8"/>
+                                    <constraint firstAttribute="height" constant="30" id="x5S-PO-sGZ"/>
+                                </constraints>
+                                <state key="normal" title="削除するお">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QWp-rC-fQ8"/>
+                                        <exclude reference="x5S-PO-sGZ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="QWp-rC-fQ8"/>
+                                        <include reference="x5S-PO-sGZ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="deleteData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3lD-f2-oN6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="x4l-AF-M1x" secondAttribute="centerX" constant="-0.5" id="49a-Ip-cSp"/>
+                            <constraint firstAttribute="centerX" secondItem="4I9-b7-3hx" secondAttribute="centerX" id="5Qd-px-FU7"/>
+                            <constraint firstItem="xcH-4r-SvB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="216" id="CLk-mc-2Lt"/>
+                            <constraint firstAttribute="centerX" secondItem="NQd-wV-Mnd" secondAttribute="centerX" constant="-0.5" id="K3P-Wg-hNd"/>
+                            <constraint firstItem="4I9-b7-3hx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="96" id="NAU-zG-TFi"/>
+                            <constraint firstItem="0VK-ED-BGC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="292" id="RTD-UN-uTS"/>
+                            <constraint firstItem="x4l-AF-M1x" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="211" id="b5B-Fj-1gS">
+                                <variation key="widthClass=compact" constant="254"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="0VK-ED-BGC" secondAttribute="centerX" constant="-0.5" id="rsN-tc-tw7"/>
+                            <constraint firstAttribute="centerX" secondItem="xcH-4r-SvB" secondAttribute="centerX" constant="-0.5" id="wp5-rV-25L"/>
+                            <constraint firstItem="NQd-wV-Mnd" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="173" id="xfT-8g-JWe"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="4I9-b7-3hx"/>
+                                <exclude reference="NQd-wV-Mnd"/>
+                                <exclude reference="x4l-AF-M1x"/>
+                                <exclude reference="xcH-4r-SvB"/>
+                                <exclude reference="0VK-ED-BGC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5Qd-px-FU7"/>
+                                <exclude reference="NAU-zG-TFi"/>
+                                <exclude reference="RTD-UN-uTS"/>
+                                <exclude reference="rsN-tc-tw7"/>
+                                <exclude reference="K3P-Wg-hNd"/>
+                                <exclude reference="xfT-8g-JWe"/>
+                                <exclude reference="49a-Ip-cSp"/>
+                                <exclude reference="b5B-Fj-1gS"/>
+                                <exclude reference="CLk-mc-2Lt"/>
+                                <exclude reference="wp5-rV-25L"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="4I9-b7-3hx"/>
+                                <include reference="NQd-wV-Mnd"/>
+                                <include reference="x4l-AF-M1x"/>
+                                <include reference="xcH-4r-SvB"/>
+                                <include reference="0VK-ED-BGC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5Qd-px-FU7"/>
+                                <include reference="NAU-zG-TFi"/>
+                                <include reference="RTD-UN-uTS"/>
+                                <include reference="rsN-tc-tw7"/>
+                                <include reference="K3P-Wg-hNd"/>
+                                <include reference="xfT-8g-JWe"/>
+                                <include reference="49a-Ip-cSp"/>
+                                <include reference="b5B-Fj-1gS"/>
+                                <include reference="CLk-mc-2Lt"/>
+                                <include reference="wp5-rV-25L"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="titleField" destination="4I9-b7-3hx" id="eIc-ic-lJ5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="252" y="239"/>
+        </scene>
+    </scenes>
+</document>
